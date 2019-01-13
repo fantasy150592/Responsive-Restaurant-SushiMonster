@@ -125,13 +125,12 @@ body {
     background: $white;
     border-radius: 10px;
     transition: all 2s ease;
-    color: $black;
+    color: $red;
     animation: fromBotton;
     animation: {
         duration: 4s;
         iteration-count: infinite;
     }
-    ;
 }
 
 @keyframes fromBotton {
@@ -395,8 +394,18 @@ body {
     display: inline-block;
 }
 
+.footer-link {
+    transition: all 2s ease;
+    color: $red;
+    animation: fromBotton;
+    animation: {
+        duration: 4s;
+        iteration-count: infinite;
+    }
+}
+
 .scrollTop {
     position: fixed;
-    bottom: 70px;
+    bottom: 110px;
     right: 10px;
 }

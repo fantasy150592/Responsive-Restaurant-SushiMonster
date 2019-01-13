@@ -6,7 +6,7 @@ $(document).ready(function() {
     //sticky navbar less padding
     $(window).scroll(function() {
         let position = $(this).scrollTop();
-        console.log(position);
+        //console.log(position);
         if (position >= 718) {
             $('.navbar').addClass('navbar-background');
             $('.navbar').addClass('fixed-top');
@@ -23,15 +23,16 @@ $(document).ready(function() {
 
         let target = $(this).attr('href');
 
-        $('html, body').stop().animate({
+        $('html, body').animate({
             scrollTop: $(target).offset().top - 25
-        }, 3000);
+        }, 2000);
+
     });
 
     //back to top
     $(window).scroll(function() {
         let position = $(this).scrollTop();
-        console.log(position);
+        //console.log(position);
         if (position >= 718) {
             $('#back-to-top').addClass('scrollTop');
 

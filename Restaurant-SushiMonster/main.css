@@ -96,7 +96,7 @@ body {
   background: #c9c1ac;
   border-radius: 10px;
   transition: all 2s ease;
-  color: #242424;
+  color: #d3325f;
   animation: fromBotton;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -346,9 +346,17 @@ body {
   display: inline-block;
 }
 
+.footer-link {
+  transition: all 2s ease;
+  color: #d3325f;
+  animation: fromBotton;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
 .scrollTop {
   position: fixed;
-  bottom: 70px;
+  bottom: 110px;
   right: 10px;
 }
 
