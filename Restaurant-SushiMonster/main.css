@@ -172,11 +172,11 @@ body {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
 
-.change .bar1 {
+.change .bar2 {
   opacity: 0;
 }
 
-.change .bar1 {
+.change .bar3 {
   transform: rotate(45deg) translate(-5px, -8px);
 }
 
