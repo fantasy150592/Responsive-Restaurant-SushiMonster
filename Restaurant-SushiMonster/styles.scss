@@ -146,6 +146,74 @@ body {
     }
 }
 
+// ##########################navbar###############################
+.navbar {
+    background: $white;
+    padding: 20px 20xp;
+    transition: all 1s ease;
+}
+
+.navbar-background {
+    padding: 5px 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    transition: all 1s ease;
+    &:hover {
+        color: $black;
+    }
+}
+
+.nav-link {
+    color: $black;
+    text-decoration: none;
+    transition: all 2s ease;
+    font-size: 23px;
+    &:hover {
+        color: $red;
+    }
+}
+
+.nav-btn {
+    background: transparent;
+    color: $red;
+    border: 2px solid $red;
+    font-size: 23px;
+    transition: all 2s ease;
+    &:hover {
+        color: $black;
+        border: 2px solid $black;
+        transform: rotate(10deg);
+    }
+}
+
+.toggler-btn {
+    border: 2px solid $red;
+    padding: 5px;
+    transition: all 2s ease;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: $red;
+    transition: all 0.5s ease;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar1 {
+    opacity: 0;
+}
+
+.change .bar1 {
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+
 // ###########################menu items##############################
 .item-container {
     position: relative;

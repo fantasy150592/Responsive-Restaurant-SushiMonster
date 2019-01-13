@@ -113,6 +113,73 @@ body {
     transform: translateY(-10);
   }
 }
+.navbar {
+  background: #c9c1ac;
+  padding: 20px 20xp;
+  transition: all 1s ease;
+}
+
+.navbar-background {
+  padding: 5px 20px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  transition: all 1s ease;
+}
+.navbar-brand:hover {
+  color: #242424;
+}
+
+.nav-link {
+  color: #242424;
+  text-decoration: none;
+  transition: all 2s ease;
+  font-size: 23px;
+}
+.nav-link:hover {
+  color: #d3325f;
+}
+
+.nav-btn {
+  background: transparent;
+  color: #d3325f;
+  border: 2px solid #d3325f;
+  font-size: 23px;
+  transition: all 2s ease;
+}
+.nav-btn:hover {
+  color: #242424;
+  border: 2px solid #242424;
+  transform: rotate(10deg);
+}
+
+.toggler-btn {
+  border: 2px solid #d3325f;
+  padding: 5px;
+  transition: all 2s ease;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: #d3325f;
+  transition: all 0.5s ease;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar1 {
+  opacity: 0;
+}
+
+.change .bar1 {
+  transform: rotate(45deg) translate(-5px, -8px);
+}
+
 .item-container {
   position: relative;
   overflow: hidden;
